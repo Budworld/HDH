@@ -59,3 +59,5 @@ int statistics(void*, int);
 // umalloc.c
 void* malloc(uint);
 void free(void*);
+
+int pgaccess(void *start, int npages, unsigned int *abits);
